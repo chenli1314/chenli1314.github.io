@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+        <title>主页</title>
+      
+        <!-- 引用CSS -->
+        <link rel="stylesheet" type="text/css" href="../CSS/home page.css">
+        <!-- 引用JS文件 -->
+        <script src="../JS/hometow.js"></script>
+    </head>
+
+    <body>
+
+        <!-- 轮播背景 -->
+        <div id="bglunbo" class="xiangdui"></div>
+        <!-- 第二层：动画 -->
+        <div id="piaoxue" class="xiangdui">
+            <canvas id="snow-flake-app"></canvas>
+        </div>
+
+        <!-- 第三层：内容 -->
+        <div id="zhuti"   class="xiangdui">
+            <!-- 个人信息 -->
+            <div id="myname">
+                <!-- 头像 -->
+                <div class="touxiang"></div>
+                
+                <div class="wenan">
+                    <span>"</span><span>当我仰望星空的时候，<br>
+                        总会不经意间的想起你~</span><span>"</span>
+
+                    
+                </div>
+            </div>
+
+            <!-- 卡片区 -->
+            <div id="kapianqu">
+                <!-- 文字区 -->
+                <div id="wenzi"><p>Hello!  welcome home</p></div>
+                <!-- 时钟区 -->
+                <div id="shizhong">
+                    <!-- 时钟区卡片 -->
+                    <!-- 音乐卡片 -->
+                    <div class="shizhong yingyue"><audio src="http://m701.music.126.net/20240418215038/99e65b0b9739ac31b2af42f968b496cf/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/14096603055/3a4d/1015/c053/d421684b94a56b4d6f928ee76fb3ec7b.mp3" 
+                        autoplay="autoplay" controls="controls" loop="loop"
+                        preload="auto"></audio></div>
+
+                    <!-- 时钟卡片 -->
+                    <div class="shizhong riqi">
+                        <!-- 宇航员旋转动画 -->
+                        <div class="yuhangyuan"></div>
+                        <!-- 时钟卡片右侧部分 -->
+                        <div class="shiyou"> 
+                            <!-- 日期 -->
+                            <div id="riqi" ></div>
+                            <!-- 时间 -->
+                            <div id="shijian"> </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 菜单栏 -->
+                <div id="caidanlan">
+                    <!-- 菜单栏选项卡 -->
+                    <ul class="caidanlan">
+                        <li class="xuanxiang"></li>
+                        <li class="xuanxiang"></li>
+                        <li class="xuanxiang"></li>
+                        <li class="xuanxiang"></li>
+                        <li class="xuanxiang"></li>
+                        <li class="xuanxiang"></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>  
+          
+
+    </body>
+
+    
+</html>  
+      

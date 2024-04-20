@@ -1,0 +1,218 @@
+/* 清除所有默认边距 */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* #背景面板 */
+#bgmianban{
+    width: 100vw;
+    height: 100vh;
+    position:absolute;
+    background-image: url("https://pic.imgdb.cn/item/661bd19a68eb9357133d595d.jpg");
+    background-size: cover; /* 图片大小覆盖 */
+    filter: blur(5px);
+    
+
+}
+
+/* 内容区样式 */
+#beijing{
+
+    width: 100vw;
+    height: 100vh;
+    /* background-color: rgb(180, 221, 245); */
+    position:absolute;
+    
+    
+
+    /* 弹性盒 */
+    display: flex;
+    justify-content: center;   /* 水平居中对齐 */
+    align-items: center;       /* 垂直居中对齐 */
+}
+
+/* 登录面板样式 */
+#denglumianban{
+    width: 1359px;
+    height: 800px;
+    background-color: azure;
+
+    border-radius: 15px;
+    box-shadow:0 0 20px rgba(31, 51, 73,0.5);
+    
+
+
+    /* 弹性盒 */
+    display: flex;
+}
+
+/* 插画部分 */
+#chahua{
+    width: 680px;
+    height: 100%;
+    background-color: rgb(29, 107, 136);
+
+    border-radius: 10px 0 0 10px;
+
+    background-image: url("https://pic.imgdb.cn/item/661bd23d68eb9357133dc256.png");
+    background-size: cover; /* 图片大小覆盖 */
+
+}   
+
+/* 输入部分 */
+#shuru{
+    width: calc(100% - 680px);
+    height: 100%;
+    background-color: #c7d9fe;         /* 输入面板背景色*/
+    border-radius: 0 10px 10px 0;
+
+     /* 弹性盒 */
+     display: flex;
+     justify-content: center;   /* 水平居中对齐 */
+     align-items: center;       /* 垂直居中对齐 */
+}
+
+/* 输入面板 */
+#shurumianban{
+    width: 450px;
+    height: 430px;
+    background-color: azure;
+    border-radius: 20px;
+    
+    /* 弹性盒 */
+    display: flex;
+    justify-content: center;   /* 水平居中对齐 */
+    flex-wrap: wrap;           /* 多行显示 */
+}
+
+/* 标题 */
+#biaoti{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px 20px 0px 0px;
+    box-shadow: 0 5px 5px rgb(224, 224, 224);
+
+    /* 弹性盒 */
+    display: flex;
+    align-items: center;       /* 垂直居中对齐 */
+}
+
+/* 云端&星辰 */
+#biaoti h1{
+    margin-left: 25px;
+    margin-right: 130px;
+
+    color: #E19620;
+}
+
+/* 欢迎您的到来 */
+#biaoti p{
+    color: #666;
+    
+}
+
+/* 名字输入框 */
+#name
+{
+    width: 400px;
+    height: 60px;
+    border: 1px solid #D9D9D9;
+    border-radius: 10px;
+
+    /* 弹性盒 */
+    display: flex;
+    align-items: center;       /* 垂直居中对齐 */
+}
+
+/* 姓名-图标 */
+#name_tubiao{
+    width: 60px;
+    height: 100%;
+    border-right: 1px solid #D9D9D9;
+
+    /* 弹性盒 */
+    display: flex;
+    justify-content: center;   /* 水平居中对齐 */
+    align-items: center;       /* 垂直居中对齐 */
+}
+
+/* 姓名图标设置 */
+#name_tubiao svg{
+    width: 60%;
+    height: 60%;
+}
+
+/* 姓名表单 */
+#name_biaodan{
+    border: none;
+    outline: 0;
+    background-color: #F0FFFF;
+
+    flex-grow: 1;   /* 占据剩余空间 */
+    height: 80%;
+
+    font-size: 16px;   
+    text-indent: 32px;
+    
+}
+
+/* 地址输入框 */
+#dizhi{
+    width: 400px;
+    height: 60px;
+    border: 1px solid #D9D9D9;
+    border-radius: 10px;
+    margin-top: -20px;
+
+    /* 弹性盒 */
+    display: flex;
+    align-items: center;       /* 垂直居中对齐 */
+}
+
+/* 地址-图标 */
+#dizhi_tubiao{
+    width: 60px;
+    height: 100%;
+    border-right: 1px solid #D9D9D9;
+
+    /* 弹性盒 */
+    display: flex;
+    justify-content: center;   /* 水平居中对齐 */
+    align-items: center;       /* 垂直居中对齐 */
+}
+
+/* 地址图标设置 */
+#dizhi_tubiao svg{
+    width: 65%;
+    height: 65%;
+}
+
+
+/* 地址表单 */
+#dizhi_biaodan{
+    border: none;
+    outline: 0;
+    background-color: #F0FFFF;
+    flex-grow: 1;
+    height: 80%;
+    font-size: 16px;
+    text-indent: 32px;
+    
+    
+}
+
+/* 提交按钮 */
+#tijiao{
+    width: 400px;
+    height: 60px;
+    border: none;              /* 消除按钮边框 */
+    border-radius: 10px;
+    background-color: #2E4BC8;
+    font-size: 16px;
+    color: #D9D9D9;
+    
+}
+
+
