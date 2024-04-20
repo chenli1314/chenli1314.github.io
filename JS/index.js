@@ -14,7 +14,7 @@ window.onload=function(){
     // 点击提交按钮跳转主页
     otijiao.onclick=function(){
         
-        window.open("../HTML/homepage.html","_blank")//打开窗口
+        window.open("../HTML/homepage.html")//打开窗口
         window.close()//关闭上一个窗口
     }
 
