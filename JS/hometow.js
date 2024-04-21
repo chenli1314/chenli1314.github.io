@@ -75,25 +75,29 @@ function vbo(){
     // 歌曲名
     var gequname=["负重一万斤长大",
                   "无名的人",
-                  "这世界那么多人",];
+                  "这世界那么多人",
+                  "ruqiu",];
     // 歌手名
     var gesou=["太一",
                "毛不易",
-               "莫文蔚",];
+               "莫文蔚",
+               "江楠",];
 
     // 歌曲链接
-    var gequurl=["http://m701.music.126.net/20240418215038/99e65b0b9739ac31b2af42f968b496cf/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/14096603055/3a4d/1015/c053/d421684b94a56b4d6f928ee76fb3ec7b.mp3",
+    var gequurl=["https://wx.music.tc.qq.com/C400002Dux693IkQLe.m4a?guid=2000000280&vkey=72225B9AE45260059AF9BFCCE9F43653B1D30AAF8D5F4F02DECA201CC92D86F179CDB218234B57EABB66402087F81A1883E1D53A0126DDC5&uin=0&fromtag=30280&trace=20ff8171137330b1",
 
-    "https://wx.music.tc.qq.com/C400000gyqu72ATz5E.m4a?guid=2000000280&vkey=868B2242F071ABE79E4CAC4841583413139ECF4A39A14D25973835BF8CDDDF94D2395EE9D22B8E4683B69916E64E064F0D2D5B14865F175B&uin=0&fromtag=30280&src=C400002v4k0j2uvSp5.m4a&trace=7351e4de572cc20f",
+    "../music/1-Nameless people-maobuyi.mp3",
 
-    "http://music.163.com/song/media/outer/url?id=1852309595.mp3",];
+    "http://music.163.com/song/media/outer/url?id=1852309595.mp3",
+    "../music/2-ruqiu-feat.jiangnan.m4a",];
   
     // 歌曲封面图片链接
     var gqfmurl=["url(https://p2.music.126.net/YVdUq-VX1TJW_8u3EKAs5g==/109951164545953099.jpg?param=100x100)",
 
     "url(https://p2.music.126.net/tLKBLSGTBgHKpazu83hZfw==/109951166724351491.jpg?param=130y130)",
 
-    "url(https://p2.music.126.net/jjd9SbhbSr_jj79d6GKszg==/109951168561880681.jpg?param=50y50)",];
+    "url(https://p2.music.126.net/jjd9SbhbSr_jj79d6GKszg==/109951168561880681.jpg?param=50y50)",
+    "url(https://imge.kugou.com/stdmusic/20230208/20230208180250638950.jpg)",];
 
 
     // 索引
