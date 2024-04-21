@@ -30,7 +30,7 @@ body{
 
 /* 第一层轮播背景 */
 #bglunbo{
-    background-image: url("http://123.56.144.92/img/back/aitx6-0og08.webp");         /* 背景图片 */
+    background-image: url("../img/beijin1.webp");         /* 背景图片 */
 
     background-size: cover; /* 图片大小覆盖 */
 
