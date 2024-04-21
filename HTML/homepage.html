@@ -8,6 +8,8 @@
       
         <!-- 引用CSS -->
         <link rel="stylesheet" type="text/css" href="../CSS/home page.css">
+        <!-- 引用图标库 -->
+        <link rel="stylesheet" href="https://cdn.staticfile.net/font-awesome/4.7.0/css/font-awesome.css">
         <!-- 引用JS文件 -->
         <script src="../JS/hometow.js"></script>
     </head>
@@ -43,10 +45,76 @@
                 <!-- 时钟区 -->
                 <div id="shizhong">
                     <!-- 时钟区卡片 -->
+
+
+
+
                     <!-- 音乐卡片 -->
-                    <div class="shizhong yingyue"><audio src="http://m701.music.126.net/20240418215038/99e65b0b9739ac31b2af42f968b496cf/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/14096603055/3a4d/1015/c053/d421684b94a56b4d6f928ee76fb3ec7b.mp3" 
-                        autoplay="autoplay" controls="controls" loop="loop"
-                        preload="auto"></audio></div>
+                    <div class="shizhong yingyue">
+                        <!-- 音乐控件 -->
+                        <div class="yyyuuu"><audio id="yykj"  src="" ></audio>
+                        <!-- 添加：controls 显示--></div>
+                        
+                        <!-- 内部 -->
+                        <div class="neibu">
+                             <!-- 内部-左侧区域 -->
+                            <div class="neizuo">
+                                <!-- 左侧区域图片 -->
+                                <div id="tupian" class="tupian">
+                                    <!-- 内部圆点 -->
+                                    <div class="yuandian"></div>
+                                </div>
+
+                                 <!-- 左侧-音量控制 -->
+                                <div class="ylkz">
+                                    <!-- 音量图标 -->
+                                    <i class="fa fa-volume-up " id="yl" aria-hidden="true"></i>
+                                    
+                                    <!-- 音量控制条-滑块 -->
+                                    <div class="kongzhitiao"><input id="huakuai" type="range" min="0" max="1" step="0.1" value="1"></div>
+
+                                </div>
+                            
+                            </div>
+                            
+                            <!-- 内部-右侧区域 -->
+                            <div class="neiyou">
+                                <!-- 歌曲文字信息 -->
+                                <div class="gqwenzi">
+                                    <!-- 歌曲名 -->
+                                    <div id="gqname"></div>
+                                    <!-- 歌手名 -->
+                                    <div id="gsname"></div>
+                                </div>
+
+
+                                <!-- 音乐进度条 -->
+                                <div class="ykjd">
+                                    <!-- 进度条 -->
+                                    <div class="jdt"><input id="jingdut" type="range" value="0"></div>
+                                    <!-- 进度时间   前进时间-总时间-->
+                                    <div class="jdsj"> <span id="qjsj">00:00</span> <span id="zsj">00:00</span></div>
+                                </div>
+
+                                <!-- 音乐控制区 -->
+                                <div class="yykz">
+                                    <!-- 上一首 -->
+                                    <i id="sys" class="fa fa-step-backward" aria-hidden="true"></i>
+                                    <!-- 播放 -->
+                                    <i id="bfj" class="fa fa-play-circle-o" aria-hidden="true"></i>
+                                    <!-- 暂停
+                                    <i class="fa fa-pause-circle-o" aria-hidden="true"></i> -->
+                                    <!-- 下一首 -->
+                                    <i id="xys" class="fa fa-step-forward" aria-hidden="true"></i>
+                                </div>
+
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
 
                     <!-- 时钟卡片 -->
                     <div class="shizhong riqi">

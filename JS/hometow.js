@@ -20,12 +20,240 @@ function ti(){
     var myhours=otime.getHours();//时
     var mymin=otime.getMinutes();//分
     var myse=otime.getSeconds();//秒
-       
+
+    if(myhours<10){
+        myhours="0"+myhours;
+    }
+    if(mymin<10){
+        mymin="0"+mymin;
+    }
+    if(myse<10){
+        myse="0"+myse;
+    }
+    //  时分秒  
      os.innerHTML=myhours+":"+mymin+":"+myse;
 
 };
-    
+   
+// 计时器
 setInterval(ti,1000);
+
+
+
+// 音乐函数
+function vbo(){
+
+    // 获取元素
+    // 音乐控件
+    var v=document.getElementById("yykj");
+    // 播放暂停控件
+    var obfj=document.getElementById("bfj");
+    // 上一曲控件
+    var osys=document.getElementById("sys");
+    // 下一曲控件
+    var oxyq=document.getElementById("xys");
+
+    // 图片
+    var otup=document.getElementById("tupian");
+    // 歌曲名
+    var ogqname=document.getElementById("gqname");
+    // 歌手名
+    var ogsname=document.getElementById("gsname");
+
+
+    // 音量滑块
+    var ohuak=document.getElementById("huakuai");
+    
+   //前进时间，总时间
+   var oqjsj=document.getElementById("qjsj");
+   var ozsj=document.getElementById("zsj");
+    // 播放进度条
+   var oqwe=document.getElementById("jingdut");
+
+
+
+    // 歌曲名
+    var gequname=["负重一万斤长大",
+                  "无名的人",
+                  "这世界那么多人",];
+    // 歌手名
+    var gesou=["太一",
+               "毛不易",
+               "莫文蔚",];
+
+    // 歌曲链接
+    var gequurl=["http://m701.music.126.net/20240418215038/99e65b0b9739ac31b2af42f968b496cf/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/14096603055/3a4d/1015/c053/d421684b94a56b4d6f928ee76fb3ec7b.mp3",
+
+    "https://wx.music.tc.qq.com/C400000gyqu72ATz5E.m4a?guid=2000000280&vkey=868B2242F071ABE79E4CAC4841583413139ECF4A39A14D25973835BF8CDDDF94D2395EE9D22B8E4683B69916E64E064F0D2D5B14865F175B&uin=0&fromtag=30280&src=C400002v4k0j2uvSp5.m4a&trace=7351e4de572cc20f",
+
+    "http://music.163.com/song/media/outer/url?id=1852309595.mp3",];
+  
+    // 歌曲封面图片链接
+    var gqfmurl=["url(https://p2.music.126.net/YVdUq-VX1TJW_8u3EKAs5g==/109951164545953099.jpg?param=100x100)",
+
+    "url(https://p2.music.126.net/tLKBLSGTBgHKpazu83hZfw==/109951166724351491.jpg?param=130y130)",
+
+    "url(https://p2.music.126.net/jjd9SbhbSr_jj79d6GKszg==/109951168561880681.jpg?param=50y50)",];
+
+
+    // 索引
+    var i=0
+    // 为歌曲名/歌手名/歌曲链接/歌曲封面/赋值
+    function fuzhi(){
+        // 歌曲名赋值
+        ogqname.innerText=gequname[i];
+        // 歌手名赋值
+        ogsname.innerText=gesou[i];
+        // 歌曲链接赋值
+        v.src=gequurl[i];
+        // 歌曲封面赋值
+        otup.style.backgroundImage=gqfmurl[i];
+
+    }
+
+
+    // 随机歌曲函数
+    function shuijigq(){
+        i=Math.floor(Math.random()*gequurl.length)
+        fuzhi();
+    }
+
+    shuijigq()//实现随机音乐
+    
+    
+    // 播放函数
+    function bofang(){
+        obfj.className="fa fa-pause-circle-o";
+        otup.style.animationPlayState="running";
+        v.play();
+    }
+    
+    
+    // 暂停函数
+    function zhanting(){
+        obfj.className="fa fa-play-circle-o";
+        otup.style.animationPlayState="paused";
+        v.pause();
+    }
+    
+
+    // 上一曲函数
+    function sys(){
+        i--;
+        if(i<0){
+            i=gequurl.length-1;
+        }
+        fuzhi();
+    }
+    
+    // 下一曲函数
+    function xys(){
+        i++;
+        if(i==gequurl.length){
+            i=0;
+        }
+        fuzhi();
+    }
+
+
+    // 前进时间-总时间函数
+    function sjdd(){
+        // 前进时间分钟:秒
+        var qjsjfz=Math.floor(v.currentTime/60);
+        var qjsjm=Math.floor(v.currentTime-qjsjfz*60);
+        //总时间分钟：秒
+        var zsjfz=Math.floor(v.duration/60);
+        var zsjm=Math.floor(v.duration-zsjfz*60)
+       
+       
+       if(qjsjfz<10){
+        qjsjfz="0"+qjsjfz;
+       }
+       if(qjsjm<10){
+        qjsjm="0"+qjsjm;
+       }
+       if(zsjfz<10){
+        zsjfz="0"+zsjfz;
+       }
+       if(zsjm<10){
+        zsjm="0"+zsjm
+       }
+        // 前进时间
+        oqjsj.innerText=qjsjfz+" "+":"+" "+qjsjm ;
+        // 总时间
+        ozsj.innerText=zsjfz+" "+":"+" "+zsjm;
+    }
+
+    // 播放进度函数
+    function oasd(){
+        var oqwe=document.getElementById("jingdut");
+        oqwe.min=0;
+        oqwe.max=v.duration;
+        oqwe.value=v.currentTime;
+    }
+    
+    // 控制播放进度函数
+    function kzbf(){
+        var oqwe=document.getElementById("jingdut");
+        oqwe.min=0;
+        oqwe.max=v.duration;
+        v.currentTime=oqwe.value;
+    }
+
+
+    obfj.onclick=function(){
+        // 当处于站厅状态时-播放
+        if(v.paused){
+            bofang();
+        }
+         // 当处于播放状态时-暂停
+         else{
+            zhanting();
+         };
+    }
+
+    // 上一曲
+    osys.onclick=function(){
+        sys();
+        bofang();
+    }
+     
+    // 下一曲
+     oxyq.onclick=function(){
+        xys();
+        bofang();
+    }
+    
+    // 自动播放下一首
+    v.onended=function(){
+        xys();
+        bofang();
+    }
+  
+    //控制音量 当拖动音量滑块时
+    ohuak.onchange=function(){
+       
+        // alert(v.volume);
+        v.volume = ohuak.value;
+       
+    }
+
+
+    // 音乐播放时
+    v.ontimeupdate=function(){
+        sjdd();
+        oasd();
+    }
+    
+    // 控制播放进度 不完善
+    oqwe.onchange=function(){
+        kzbf();
+    }
+    
+
+}
+
+vbo()
 
 
 //-------------------------------------------------------------------------------------------------------------------------------------------------
