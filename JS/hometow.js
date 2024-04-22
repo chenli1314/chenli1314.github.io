@@ -73,15 +73,37 @@ function vbo(){
 
 
     // 歌曲名
-    var gequname=["负重一万斤长大",
-                  "无名的人",
-                  "这世界那么多人",
-                  "ruqiu",];
+    var gequname=[  "负重一万斤长大",
+                    "无名的人",
+                    "这世界那么多人",
+                    "入秋",
+                    "别想太多,好好生活",
+                    "小美满",
+                    "想某人",
+                    "身骑白马",
+                    "和光同尘",
+                    "时光正好",
+                    "向云端",
+                    "一荤一素",
+                    "东北民谣",
+                    "呓语",
+                    "像我这样的人"];
     // 歌手名
-    var gesou=["太一",
-               "毛不易",
-               "莫文蔚",
-               "江楠",];
+    var gesou=[ "太一",
+                "毛不易",
+                "莫文蔚",
+                "江楠",
+                "王一一",
+                "周深",
+                "王优秀",
+                "周深",
+                "周深",
+                "郁可唯",
+                "小霞/海洋Bo",
+                "毛不易",
+                "毛不易",
+                "毛不易",
+                "毛不易",];
 
     // 歌曲链接
     var gequurl=["https://wx.music.tc.qq.com/C400002Dux693IkQLe.m4a?guid=2000000280&vkey=72225B9AE45260059AF9BFCCE9F43653B1D30AAF8D5F4F02DECA201CC92D86F179CDB218234B57EABB66402087F81A1883E1D53A0126DDC5&uin=0&fromtag=30280&trace=20ff8171137330b1",
@@ -89,15 +111,35 @@ function vbo(){
     "../music/1-Nameless people-maobuyi.mp3",
 
     "http://music.163.com/song/media/outer/url?id=1852309595.mp3",
-    "../music/2-ruqiu-feat.jiangnan.m4a",];
+    "../music/2-ruqiu-feat.jiangnan.m4a",
+    "../music/3-biexiangtaiduo-haohaoshenghuo-wangyiyi.m4a",
+    "../music/4-xiaomeiman-zhousheng.mp3",
+    "../music/5-xiangmoureng-wangyouxiu.mp3",
+    "../music/6-shenqibaima-zhoushen.mp3",
+    "../music/7-heguangtongchen-zhoushen.mp3",
+    "../music/8-shiguangzhenghao-yukewei.mp3",
+    "../music/9-xiangyunduan-haiyangbo.mp3",
+    "../music/10-yihunyisu-maobuyi.mp3",
+    "../music/11-dongbeiminyao-maobuyi.mp3",
+    "../music/12-yiyu-maobuyi.mp3",
+    "../music/13-xiangwozheyangderen-mabuyi.mp3",];
   
     // 歌曲封面图片链接
     var gqfmurl=["url(https://p2.music.126.net/YVdUq-VX1TJW_8u3EKAs5g==/109951164545953099.jpg?param=100x100)",
-
     "url(https://p2.music.126.net/tLKBLSGTBgHKpazu83hZfw==/109951166724351491.jpg?param=130y130)",
-
     "url(https://p2.music.126.net/jjd9SbhbSr_jj79d6GKszg==/109951168561880681.jpg?param=50y50)",
-    "url(https://imge.kugou.com/stdmusic/20230208/20230208180250638950.jpg)",];
+    "url(https://imge.kugou.com/stdmusic/20230208/20230208180250638950.jpg)",
+    "url(https://imge.kugou.com/stdmusic/20240304/20240304172838687028.jpg)",
+    "url(https://y.qq.com/music/photo_new/T002R300x300M0000002ATV00WcBgd_1.jpg?max_age=2592000)",
+    "url(https://imge.kugou.com/stdmusic/20210805/20210805215422444360.jpg)",
+    "url(https://images.genius.com/c3522284625cd73a8e9b8f7b7ce3f5f2.855x855x1.jpg)",
+    "url(https://i.pinimg.com/originals/55/00/38/55003842054079f1675b75b2a44dcc1a.jpg)",
+    "url(https://n.sinaimg.cn/sinakd10121/213/w2048h1365/20221225/132d-0881a19b6d055d773897d43a3f551a27.jpg)",
+    "url(https://y.qq.com/music/photo_new/T002R300x300M00000152o5W2z6PSk_2.jpg?max_age=2592000)",
+    "url(https://p6.itc.cn/q_70/images03/20211210/8e60460c5df74dd6967570f91fc0eab7.jpeg)",
+    "url(https://y.qq.com/music/photo_new/T001R300x300M000001BHDR33FZVZ0.jpg?max_age=2592000)",
+    "url(https://up2.susanguitar.com/upload5/img/c688fa5e64122cc51d965f0f5b085e4d.jpg)",
+    "url(https://puui.qpic.cn/tv/0/40367000_700527/0)"];
 
 
     // 索引
@@ -265,7 +307,7 @@ vbo()
 // 飘雪函数
 function  piaoxue(){
 
-    //飘雪
+     //飘雪
     //Here is configuration
     window.animation_config = {
         generatorDelay : { min: 1, max:20 }, //in ms
