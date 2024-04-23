@@ -87,7 +87,15 @@ function vbo(){
                     "一荤一素",
                     "东北民谣",
                     "呓语",
-                    "像我这样的人"];
+                    "像我这样的人",
+                    "别爱太满别睡太晚(童声版)",
+                    "匆匆那年",
+                    "不必在乎我是谁",
+                    "过去了",
+                    "无处安放",
+                    "世界上不存在的歌",
+                    "不在等候的姑娘",
+                    "世界这么大还是遇见你",];
     // 歌手名
     var gesou=[ "太一",
                 "毛不易",
@@ -103,13 +111,20 @@ function vbo(){
                 "毛不易",
                 "毛不易",
                 "毛不易",
-                "毛不易",];
+                "毛不易",
+                "李子莹",
+                "王菲",
+                "孙露",
+                "虎二",
+                "白若溪",
+                "赵英俊",
+                "程响",
+                "程响",];
+                
 
     // 歌曲链接
-    var gequurl=["https://wx.music.tc.qq.com/C400002Dux693IkQLe.m4a?guid=2000000280&vkey=72225B9AE45260059AF9BFCCE9F43653B1D30AAF8D5F4F02DECA201CC92D86F179CDB218234B57EABB66402087F81A1883E1D53A0126DDC5&uin=0&fromtag=30280&trace=20ff8171137330b1",
-
-    "../music/1-Nameless people-maobuyi.mp3",
-
+    var gequurl=["../music/0-fuzhongyiwanjingzhangda-taiyi.m4a",
+    "../music/1-Nameless-people-maobuyi.mp3",
     "http://music.163.com/song/media/outer/url?id=1852309595.mp3",
     "../music/2-ruqiu-feat.jiangnan.m4a",
     "../music/3-biexiangtaiduo-haohaoshenghuo-wangyiyi.m4a",
@@ -122,7 +137,15 @@ function vbo(){
     "../music/10-yihunyisu-maobuyi.mp3",
     "../music/11-dongbeiminyao-maobuyi.mp3",
     "../music/12-yiyu-maobuyi.mp3",
-    "../music/13-xiangwozheyangderen-mabuyi.mp3",];
+    "../music/13-xiangwozheyangderen-mabuyi.mp3",
+    "../music/14-bieaitanmanbieshuitaiwan-liziying.m4a",
+    "../music/15-congcongnanian-wangfei.m4a",
+    "../music/16-bubizaihuwoshishui-shunlu.m4a",
+    "../music/17-guoqul-huer.m4a",
+    "../music/18-wuchuanfang-bairuoxi.m4a",
+    "../music/19-shijieshangbucunzaidege-zhaoyingjun.m4a",
+    "../music/20-buzhaidenghoudeguniang-chengxuiang.m4a",
+    "../music/21-shijienamodahaishiyujianni-chengxiang.m4a"];
   
     // 歌曲封面图片链接
     var gqfmurl=["url(https://p2.music.126.net/YVdUq-VX1TJW_8u3EKAs5g==/109951164545953099.jpg?param=100x100)",
@@ -132,14 +155,22 @@ function vbo(){
     "url(https://imge.kugou.com/stdmusic/20240304/20240304172838687028.jpg)",
     "url(https://y.qq.com/music/photo_new/T002R300x300M0000002ATV00WcBgd_1.jpg?max_age=2592000)",
     "url(https://imge.kugou.com/stdmusic/20210805/20210805215422444360.jpg)",
-    "url(https://images.genius.com/c3522284625cd73a8e9b8f7b7ce3f5f2.855x855x1.jpg)",
-    "url(https://i.pinimg.com/originals/55/00/38/55003842054079f1675b75b2a44dcc1a.jpg)",
+    "url(https://y.qq.com/music/photo_new/T002R300x300M000001jkFOp2xAku1.jpg?max_age=2592000)",
+    "url(https://y.gtimg.cn/music/photo_new/T002R180x180M000004g9SDm1squHf_2.jpg)",
     "url(https://n.sinaimg.cn/sinakd10121/213/w2048h1365/20221225/132d-0881a19b6d055d773897d43a3f551a27.jpg)",
     "url(https://y.qq.com/music/photo_new/T002R300x300M00000152o5W2z6PSk_2.jpg?max_age=2592000)",
     "url(https://p6.itc.cn/q_70/images03/20211210/8e60460c5df74dd6967570f91fc0eab7.jpeg)",
     "url(https://y.qq.com/music/photo_new/T001R300x300M000001BHDR33FZVZ0.jpg?max_age=2592000)",
     "url(https://up2.susanguitar.com/upload5/img/c688fa5e64122cc51d965f0f5b085e4d.jpg)",
-    "url(https://puui.qpic.cn/tv/0/40367000_700527/0)"];
+    "url(https://puui.qpic.cn/tv/0/40367000_700527/0)",
+    "url(https://y.qq.com/music/photo_new/T002R300x300M0000000Sqja48MbDE.jpg?max_age=2592000)",
+    "url(https://y.gtimg.cn/music/photo_new/T002R180x180M0000036eU2A4VBjo2_1.jpg)",
+    "url(https://y.qq.com/music/photo_new/T002R300x300M000004IAMVY04ObQd.jpg?max_age=2592000)",
+    "url(https://y.qq.com/music/photo_new/T002R300x300M000003Mox8T1Hpbw4.jpg?max_age=2592000)",
+    "url(https://img.pconline.com.cn/images/upload/upc/tx/photoblog/1511/11/c14/15141788_15141788_1447248892810_mthumb.jpg)",
+    "url(https://y.qq.com/music/photo_new/T002R300x300M000000ZmnKf4fuO0O.jpg?max_age=2592000)",
+    "url(https://y.qq.com/music/photo_new/T002R300x300M000002pqoUj09HVcf.jpg?max_age=2592000)",
+    "url(https://y.qq.com/music/photo_new/T002R300x300M000003Ls5Jo4EFBIH.jpg?max_age=2592000)"];
 
 
     // 索引
@@ -304,153 +335,7 @@ vbo()
 
 //-------------------------------------------------------------------------------------------------------------------------------------------------
 
-// 飘雪函数
-function  piaoxue(){
 
-     //飘雪
-    //Here is configuration
-    window.animation_config = {
-        generatorDelay : { min: 1, max:20 }, //in ms
-        speed : 1, //1x
-        x_axis_rate : 0.1, // x axis mobility
-        weight : 0.5, //snow flake weight
-        size : 1.5, //snow flake size
-        z_axis_rate : 0.05, //z axis mobility
-        color : {b : 255, a: 0.8}, //b for brightness, a for alpha, by default generates random colors but if you set brightness 255 then you'll see only white color
-        wind : 0 // value's sign determines wind direction.
-    };
-
-    (function(){
-        window.animation_config = window.animation_config || {
-            generatorDelay : { min: 1, max:20 },
-            isRunning : true,
-            speed : 1,
-            x_axis_rate : 0.1,
-            weight : 0.5,
-            size : 1.5,
-            z_axis_rate : 0.05,
-            color : {b : 255, a: 0.8},
-            wind : 0
-        };
-        window.animation_config.isRunning = true;
-        
-        let canvas = document.getElementById('snow-flake-app');
-        let ctx = canvas.getContext('2d');
-        canvas.width = window.innerWidth;
-        canvas.height = window.innerHeight;
-        const generatorDelay = { min: 1, max:1 };
-        let screenBounds = { lower: 0, upper: canvas.width};
-        
-        window.onfocus = function() {
-        //uncomment for performance
-        //window.animation_config.isRunning = true;
-        };
-        window.onblur = function() {
-        //uncomment for performance
-        //window.animation_config.isRunning = false;
-        };
-        
-        let particleArray = [];
-        
-        function randomInt(min = 0, max = 1){
-            return Math.floor(Math.random() * (max - min + 1) + min);
-        }
-        function randomFloat(min = 0, max = 1){
-            return (Math.random() * (max - min)) + min;  //Math.random() * (max - min + 1) + min;
-        }
-        function randomColor(brightness, alpha){
-            return 'rgba(' + randomInt(brightness,255) + ',' + randomInt(brightness,255) + ',' + randomInt(brightness,255) + ',' + alpha + ')';
-        }
-        
-        class Particle{
-            constructor(pos, vector, z_index, size, color, weight){
-                this.pos = pos;
-                this.vector = vector;
-                this.z_index = z_index%5;
-                this.color = color;
-                this.size = size%50;
-                this.weight = weight%50;
-            }
-            
-            get displaySize(){
-                return Math.sqrt(this.z_index*this.size) * window.animation_config.size;
-            }
-            
-            draw(){
-                if(this.death || !(this.pos.x >= 0 && this.pos.x <= canvas.width )) return;
-                ctx.beginPath();
-                ctx.arc(this.pos.x, this.pos.y, this.displaySize, 0, Math.PI*2);
-                ctx.fillStyle = this.color;
-                ctx.fill();
-            }
-            
-            update(){
-                this.vector.z += randomFloat(-0.1,0.1);
-                this.z_index += this.vector.z * window.animation_config.z_axis_rate;
-                if(this.z_index <= 0) this.z_index = Math.abs(this.z_index);
-                if(this.pos.y > canvas.height - this.displaySize || !(this.pos.x >= screenBounds.lower && this.pos.x <= screenBounds.upper ) || this.displaySize <= 0){
-                    this.death = true;
-                    return;
-                }
-                
-                this.vector.x += (randomFloat(-0.3, 0.3) * this.z_index) * window.animation_config.x_axis_rate;
-                this.vector.y = Math.sqrt(this.weight * this.size * this.z_index) * window.animation_config.speed;
-                
-                
-                this.pos.x += this.vector.x + window.animation_config.wind;
-                this.pos.y += this.vector.y;
-            }
-        }
-        
-        function init(){
-            particleArray = [];
-            
-            function generateRandomParticle(){
-                if(window.animation_config.isRunning){
-                    if(window.animation_config.wind > 0) {
-                        screenBounds.lower = (window.animation_config.wind * 200) * -1;
-                        screenBounds.upper = canvas.width;
-                    }
-                    else if(window.animation_config.wind < 0) {
-                        screenBounds.lower = 0;
-                        screenBounds.upper = canvas.width + (window.animation_config.wind * -200);
-                    }
-                    let pos = { x: randomInt(screenBounds.lower, screenBounds.upper), y: 0 };
-                    let vector = { x: randomFloat(-0.3,0.3), y: randomFloat(-5,5), z: randomFloat(-0.1,0.1)};
-                    let s = randomFloat(0.1,5);
-                    let z = randomFloat(0.2,5);
-                    let c = randomColor(window.animation_config.color.b, window.animation_config.color.a);
-                    let w = window.animation_config.weight;
-                    particleArray.push(new Particle(pos,vector,z,s,c,w));
-                }
-                setTimeout(generateRandomParticle, randomInt(window.animation_config.generatorDelay.min, window.animation_config.generatorDelay.max));
-            }
-            
-            
-            generateRandomParticle();
-        }
-        
-        function animate(){
-            
-            if(window.animation_config.isRunning){
-                ctx.clearRect(0,0, canvas.width, canvas.height);
-                particleArray = particleArray.filter(particle => !particle.death);
-                for(let i = 0; i < particleArray.length; i++){
-                    particleArray[i].update();
-                    particleArray[i].draw();
-                }
-            }
-            requestAnimationFrame(animate);
-        }
-        
-        init();
-        animate();
-    })();
-
-    }
-
-// 调用飘雪函数
-piaoxue()
 //------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
