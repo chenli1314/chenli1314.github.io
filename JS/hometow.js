@@ -95,7 +95,16 @@ function vbo(){
                     "无处安放",
                     "世界上不存在的歌",
                     "不在等候的姑娘",
-                    "世界这么大还是遇见你",];
+                    "世界这么大还是遇见你",
+                    "Say Something",
+                    "我要你",
+                    "胡广生",
+                    "王昭君",
+                    "枕着光的她",
+                    "大梦",
+                    "儿时",
+                    "再见青春",
+                    "亲爱的小孩",];
     // 歌手名
     var gesou=[ "太一",
                 "毛不易",
@@ -119,7 +128,16 @@ function vbo(){
                 "白若溪",
                 "赵英俊",
                 "程响",
-                "程响",];
+                "程响",
+                "A Great Big World/Christina Aguilera",
+                "任素汐",
+                "任素汐",
+                "任素汐",
+                "任素汐",
+                "瓦依那/任素汐",
+                "任素汐/杨恩又",
+                "任素汐",
+                "任素汐",];
                 
 
     // 歌曲链接
@@ -145,7 +163,15 @@ function vbo(){
     "../music/18-wuchuanfang-bairuoxi.m4a",
     "../music/19-shijieshangbucunzaidege-zhaoyingjun.m4a",
     "../music/20-buzhaidenghoudeguniang-chengxuiang.m4a",
-    "../music/21-shijienamodahaishiyujianni-chengxiang.m4a"];
+    "../music/21-shijienamodahaishiyujianni-chengxiang.m4a",
+    "../music/22-Say-Something.m4a",
+    "../music/23-woyaoni-rensuxi.m4a",
+    "../music/25-wangzhaojun-rensuxi.m4a",
+    "../music/26-zhennzheguangdeta-rensuxi.m4a",
+    "../music/27-damen.m4a",
+    "../music/28-ershi.m4a",
+    "../music/29-zaijianqingchong.m4a",
+    "../music30-qingaidexiaohai.m4a"];
   
     // 歌曲封面图片链接
     var gqfmurl=["url(https://p2.music.126.net/YVdUq-VX1TJW_8u3EKAs5g==/109951164545953099.jpg?param=100x100)",
@@ -170,7 +196,16 @@ function vbo(){
     "url(https://img.pconline.com.cn/images/upload/upc/tx/photoblog/1511/11/c14/15141788_15141788_1447248892810_mthumb.jpg)",
     "url(https://y.qq.com/music/photo_new/T002R300x300M000000ZmnKf4fuO0O.jpg?max_age=2592000)",
     "url(https://y.qq.com/music/photo_new/T002R300x300M000002pqoUj09HVcf.jpg?max_age=2592000)",
-    "url(https://y.qq.com/music/photo_new/T002R300x300M000003Ls5Jo4EFBIH.jpg?max_age=2592000)"];
+    "url(https://y.qq.com/music/photo_new/T002R300x300M000003Ls5Jo4EFBIH.jpg?max_age=2592000)",
+    "url(https://y.qq.com/music/photo_new/T002R300x300M0000009jWuG1oydZk.jpg?max_age=2592000)",
+    "url(https://y.qq.com/music/photo_new/T002R300x300M000004Iokt60BJvO2.jpg?max_age=2592000)",
+    "url(https://y.qq.com/music/photo_new/T002R300x300M000000MtVCd2qgzd9.jpg?max_age=2592000)",
+    "url(https://y.gtimg.cn/music/photo_new/T002R180x180M00000003uSK0ttEuV_1.jpg)",
+    "url(https://y.qq.com/music/photo_new/T002R300x300M000001rApXt3FuIX9.jpg?max_age=2592000)",
+    "url(https://qpic.y.qq.com/music_cover/iaVNVUXOg73ua71Z0dtuz7Yk5H0BzPibuKcx6noUYeFme1JJ3jibxe5vQ/600?n=1)",
+    "url(https://y.qq.com/music/photo_new/T002R300x300M0000030lak94GN5Ad_0.jpg?max_age=2592000)",
+    "url(https://y.qq.com/music/photo_new/T002R300x300M000003baRUP1BTzvK_1.jpg?max_age=2592000)",
+    "url(https://y.qq.com/music/photo_new/T002R300x300M000003wBDjo3kfnT2_2.jpg?max_age=2592000)"];
 
 
     // 索引
