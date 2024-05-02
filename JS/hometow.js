@@ -166,12 +166,13 @@ function vbo(){
     "../music/21-shijienamodahaishiyujianni-chengxiang.m4a",
     "../music/22-Say-Something.m4a",
     "../music/23-woyaoni-rensuxi.m4a",
+    "../music/24-fuguangshen-rensuxi.m4a",
     "../music/25-wangzhaojun-rensuxi.m4a",
     "../music/26-zhennzheguangdeta-rensuxi.m4a",
     "../music/27-damen.m4a",
     "../music/28-ershi.m4a",
     "../music/29-zaijianqingchong.m4a",
-    "../music30-qingaidexiaohai.m4a"];
+    "../music/30-qingaidexiaohai.m4a",];
   
     // 歌曲封面图片链接
     var gqfmurl=["url(https://p2.music.126.net/YVdUq-VX1TJW_8u3EKAs5g==/109951164545953099.jpg?param=100x100)",
